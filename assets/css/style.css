@@ -5,10 +5,10 @@ body {
     
 }
 /*Figure out why font won't load*/
-/*@font-face {
+@font-face {
 	font-family: myFirstFont;
 	src: url("assets/fonts/256bytes.ttf");
-}*/
+}
 
 #mainContent {
 	background-color: black;
