@@ -7,7 +7,7 @@ body {
 /*Figure out why font won't load*/
 @font-face {
 	font-family: myFirstFont;
-	src: url("assets/fonts/256bytes.ttf");
+	src: url(../fonts/256bytes.ttf);
 }
 
 #mainContent {
@@ -16,14 +16,39 @@ body {
 	height: 700px;
 	opacity: 0.95;
 	text-align: center;
-	/*font-family: myFirstFont;*/
+	font-family: myFirstFont;
+}
 
-
+#subContent {
+	display: none;
 }
 
 #h1 {
 	color: green;
 	font: 50px bold;
+}
+
+#startButton {
+  font-weight: bold;
+  color: #14396A !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #15BF03;
+  box-shadow: 1px 1px 1px #00D43A;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #00B91C;
+  background: #FFFFFF;
+  margin-bottom: 25px;
+}
+#startButton:hover {
+  color: #070707 !important;
+  background: grad;
+  background: linear-gradient(top,  #00FF09,  #0E8308);
+  background: -ms-linear-gradient(top,  #00FF09,  #0E8308);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00FF09), to(#0E8308));
+  background: -moz-linear-gradient(top,  #00FF09,  #0E8308);
 }
 
 .nonAnswers {
